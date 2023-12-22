@@ -1,0 +1,239 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    color: #434455;
+    background-color: #ffffff;
+}
+/* Обнулення дефолтних маржинів для заголовків та параграфів тексту */
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+/* Обнулення дефолтних маржинів та лівого падіння для списків */
+ul, ol {
+    margin: 0;
+    padding-left: 0;
+}
+
+/* Зображення блочними елементами */
+img {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container { 
+    width: 1440px;
+    padding-left: 156px;  
+    padding-right: 156px;
+    margin-left: auto;
+    margin-right: auto;
+
+    }
+
+.header-container {
+        display: flex;
+        justify-content: space-between; /* Просторовий розподіл між елементами */
+        align-items: center; /* Вертикальне вирівнювання по центру */
+        border-bottom: 1px solid #F4F4FD;
+    }
+         
+.menu-nav{
+    background-color: #FFFFFF;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 76px;
+}
+
+.li-section {
+    background-color:#FFFFFF;
+}
+
+
+
+.li-studio {
+    color: #2e2f42;
+    margin-right: 40px;
+}
+
+.li-studio:last-child {
+    margin-right: 0;
+}
+
+.li-studio-a {
+    color: #2e2f42;
+}
+a.li-studio-a:hover, a.li-studio-a:active, a.li-studio-a:focus {
+    color: #404bbf;
+} 
+
+a.li-header:hover, a.li-header:active, a.li-header:focus {
+    color: #404bbf;
+} 
+.logo {
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #4d5ae5;
+    margin-left: 156px;
+}
+.address-main {
+color: #434455 ;
+}
+
+.logo-studio{
+    color: #2e2f42;
+}
+.logo-studio-a{
+    color: #2E2F42;
+}
+
+.nav-container {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    display: flex;
+    align-items: center; /* Вертикальне вирівнювання по центру */
+    justify-content: center; /* Центрування тексту по горизонталі */ 
+}
+
+  
+address{
+    font-style: normal;
+}
+
+.adress-info {
+    
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#434455;
+    margin-right: 40px;
+}
+
+a.adress-info:hover, a.adress-info:active, a.adress-info:focus {
+    color: #404bbf;
+}
+
+a.adress-info:last-child {
+    margin-right: 156px;
+}
+
+.address-main {
+    margin-left: auto;
+}
+
+/* Стилі для секцій сайту */
+section {
+    margin: 0;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+/* section 1 */
+.section-tittle {
+    color: #ffffff;
+    background-color: #2E2F42;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    height: 600px;
+    flex-shrink: 0;
+
+}
+
+.main-button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;    
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4d5ae5;
+}
+
+.main-button:hover, .main-button:active, .main-button:focus {
+    background-color: #404BBF;
+}
+
+/* section 2 */
+
+.section-principles {
+    font-weight: 500;
+    color: #8E8F99;
+}
+
+/* section 3 */
+
+.section-team {
+    background-color: #F4F4FD;
+    font-weight: 500;
+    color: #8E8F99;
+}
+
+/* section 4 */
+
+.section-portfolio {
+    font-weight: 500;
+    color: #8E8F99;
+}
+/* footer */
+.footer-section {
+    color: #8e8f99;
+    background-color:#2E2F42;
+}
+
+.h-main {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 56px;
+    letter-spacing: 0.02em
+}
+
+.h-main-free {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em
+}
+
+.h-main-two {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.p-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.p-footer-text {
+    color: #F4F4FD;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.logo-studio-fooler {
+    color: #f4f4fd;
+}
