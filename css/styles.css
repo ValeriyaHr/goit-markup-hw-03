@@ -23,10 +23,34 @@ ul {
     padding-left: 0;
 }
 
+.container {
+    max-width: 1158px; /* Максимальна ширина контейнера */
+    padding-left: 20px; /* Лівий внутрішній відступ */
+    padding-right: 20px; /* Правий внутрішній відступ */
+    margin-left: auto; /* Автоматичний лівий зовнішній відступ (центрування) */
+    margin-right: auto; /* Автоматичний правий зовнішній відступ (центрування) */
+    background-color: cyan;/*test*/
+    border: 3px solid #2E2F42;/*test*/
+    clear: both;
+}  
+
 .ul-section{
     background-color: #FFFFFF;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    display: flex;
+}
+
+ .ul-header-menu {
+    background-color: #FFFFFF;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    display: flex;
+    width: 50%;
+    float: left;
+}
+.ul-header-menu li{
+    margin-right: 20px;
 }
 
 .li-section {
@@ -47,6 +71,14 @@ a.li-studio-a:hover, a.li-studio-a:active, a.li-studio-a:focus {
 a.li-header:hover, a.li-header:active, a.li-header:focus {
     color: #404bbf;
 } 
+
+.logo-block-header {
+width: 10%;
+display: inline-flexbox;
+background-color: red; /*test*/
+float: left; /* попробовать без него*/
+}
+
 .logo {
     font-family: 'Raleway', sans-serif;
     line-height: 1.17;
@@ -58,6 +90,10 @@ a.li-header:hover, a.li-header:active, a.li-header:focus {
 }
 .address-main {
 color: #434455 ;
+display: flex;
+width: 33%;
+background-color: green;
+ 
 }
 
 .logo-studio{
@@ -72,6 +108,8 @@ color: #434455 ;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    width: 60%;  /*test zzz*/
+    display: inline-flexbox; /*test zzzz*/
  
 }
 
