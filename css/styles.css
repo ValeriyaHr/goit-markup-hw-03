@@ -39,6 +39,7 @@ ul {
     letter-spacing: 0.02em;
     color: #2e2f42;
     display: flex;
+    flex-wrap: wrap;
 }
 
  .ul-header-menu {
@@ -108,9 +109,8 @@ background-color: green;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    width: 60%;  /*test zzz*/
-    display: inline-flexbox; /*test zzzz*/
- 
+    /*width: 60%;  test zzz*/
+    /*display: inline-flexbox; /*test zzzz*/
 }
 
   
@@ -129,13 +129,20 @@ address{
 a.adress-info:hover, a.adress-info:active, a.adress-info:focus {
     color: #404bbf;
 }
+
+/* header-body {
+    width: calc((100% - 20px) / 3);
+}
+*/
+
 /* section  */
 .section-tittle {
     color: #ffffff;
     background-color: #2E2F42;
     line-height: 1.07;
     text-align: center;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
+    padding: 188px 0;
 }
 
 .main-button {
@@ -147,6 +154,12 @@ a.adress-info:hover, a.adress-info:active, a.adress-info:focus {
     color: #ffffff;
     cursor: pointer;
     background-color: #4d5ae5;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+
 }
 
 .main-button:hover, .main-button:active, .main-button:focus {
@@ -178,14 +191,15 @@ a.adress-info:hover, a.adress-info:active, a.adress-info:focus {
     color: #ffffff;
     font-weight: 700;
     font-size: 56px;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
+    max-width: 496px;
 }
 
 .h-main-free {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
 }
 
 .h-main-two {
