@@ -1,3 +1,14 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+
 body {
     font-family: "Roboto", sans-serif;
     font-style: normal;
@@ -30,9 +41,18 @@ ul {
     margin-left: auto; /* Автоматичний лівий зовнішній відступ (центрування) */
     margin-right: auto; /* Автоматичний правий зовнішній відступ (центрування) */
     background-color: cyan;/*test*/
-    border: 3px solid #2E2F42;/*test*/
-    clear: both;
+    outline: 1px solid #fa0eb7;/*test*/
 }  
+
+.ul-section-address {
+    background-color: #FFFFFF;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    display: flex;
+    display: inline-block;
+    vertical-align: middle;
+}
+
 
 .ul-section{
     background-color: #FFFFFF;
@@ -47,11 +67,51 @@ ul {
     letter-spacing: 0.02em;
     color: #2e2f42;
     display: flex;
+    display: inline-flexbox;
     width: 50%;
     float: left;
+    vertical-align: middle;
 }
 .ul-header-menu li{
     margin-right: 20px;
+}
+
+.ul-section-approach {
+    display: flex;
+    background-color: #FFFFFF;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.ul-section-portfolio {
+    background-color: #FFFFFF;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 120px 0 120px 0;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.li-portfolio {
+    margin-right: 24px;
+}
+
+.portfolio-content {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
+}
+
+.li-portfolio-first {
+    width: calc((100% - 48px) / 3); 
+    margin-right: 24px;
+}
+
+.li-portfolio-free {
+    margin-right: 0;
 }
 
 .li-section {
@@ -74,10 +134,9 @@ a.li-header:hover, a.li-header:active, a.li-header:focus {
 } 
 
 .logo-block-header {
-width: 10%;
-display: inline-flexbox;
+display: flex;
 background-color: red; /*test*/
-float: left; /* попробовать без него*/
+vertical-align: middle;
 }
 
 .logo {
@@ -88,13 +147,11 @@ float: left; /* попробовать без него*/
     text-transform: uppercase;
     font-size: 18px;
     color: #4d5ae5;
+    display: flex;
 }
 .address-main {
-color: #434455 ;
-display: flex;
-width: 33%;
-background-color: green;
- 
+    color: #434455 ;
+    background-color: green;
 }
 
 .logo-studio{
@@ -109,8 +166,8 @@ background-color: green;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    display: flex;
     /*width: 60%;  test zzz*/
-    /*display: inline-flexbox; /*test zzzz*/
 }
 
   
@@ -119,21 +176,27 @@ address{
 }
 
 .adress-info {
-    
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#434455;
+    display: flex;
 }
 
 a.adress-info:hover, a.adress-info:active, a.adress-info:focus {
     color: #404bbf;
 }
 
-/* header-body {
-    width: calc((100% - 20px) / 3);
+.header-body {
+    border-bottom: 1px solid #e7e9fc;
+    padding: 0 15px;
 }
-*/
+
+.header-menu {
+    display: flex;
+    width: calc((100% - 20px) / 3);
+    gap: 40px;
+}
 
 /* section  */
 .section-tittle {
@@ -146,6 +209,8 @@ a.adress-info:hover, a.adress-info:active, a.adress-info:focus {
     justify-content: center; /* Вирівнювання по горизонталі */
     align-items: center; /* Вирівнювання по вертикалі */
     flex-direction: column;
+    height: 600px;
+    flex-shrink: 0;
 }
 
 .main-button {
@@ -192,6 +257,7 @@ a.adress-info:hover, a.adress-info:active, a.adress-info:focus {
 .footer-section {
     color: #8e8f99;
     background-color:#2E2F42;
+    padding: 100px 0;
 }
 
 .h-main {
@@ -218,6 +284,7 @@ a.adress-info:hover, a.adress-info:active, a.adress-info:focus {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 
 .p-text {
@@ -236,4 +303,7 @@ a.adress-info:hover, a.adress-info:active, a.adress-info:focus {
 
 .logo-studio-fooler {
     color: #f4f4fd;
+    display: inline-block; 
+    margin-bottom: 16px;
 }
+
