@@ -34,10 +34,17 @@ ul {
     padding-left: 0;
 }
 
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
 .container {
     max-width: 1158px; /* Максимальна ширина контейнера */
-    padding-left: 20px; /* Лівий внутрішній відступ */
-    padding-right: 20px; /* Правий внутрішній відступ */
+    padding-left: 15px; /* Лівий внутрішній відступ */
+    padding-right: 15px; /* Правий внутрішній відступ */
     margin-left: auto; /* Автоматичний лівий зовнішній відступ (центрування) */
     margin-right: auto; /* Автоматичний правий зовнішній відступ (центрування) */
     background-color: cyan;/*test*/
@@ -49,8 +56,9 @@ ul {
     letter-spacing: 0.02em;
     color: #2e2f42;
     display: flex;
-    display: inline-block;
     vertical-align: middle;
+    gap: 40px
+
 }
 
 
@@ -67,10 +75,9 @@ ul {
     letter-spacing: 0.02em;
     color: #2e2f42;
     display: flex;
-    display: inline-flexbox;
-    width: 50%;
-    float: left;
+    justify-content: space-between;
     vertical-align: middle;
+    gap: 40px
 }
 .ul-header-menu li{
     margin-right: 20px;
@@ -106,7 +113,6 @@ ul {
 }
 
 .li-portfolio-first {
-    width: calc((100% - 48px) / 3); 
     margin-right: 24px;
 }
 
@@ -124,6 +130,7 @@ ul {
 
 .li-studio-a {
     color: #2e2f42;
+    padding: 24px 0;
 }
 a.li-studio-a:hover, a.li-studio-a:active, a.li-studio-a:focus {
     color: #404bbf;
@@ -137,6 +144,7 @@ a.li-header:hover, a.li-header:active, a.li-header:focus {
 display: flex;
 background-color: red; /*test*/
 vertical-align: middle;
+margin-right: 76px
 }
 
 .logo {
@@ -192,12 +200,19 @@ a.adress-info:hover, a.adress-info:active, a.adress-info:focus {
     padding: 0 15px;
 }
 
-.header-menu {
+.container-header-menu {
     display: flex;
-    width: calc((100% - 20px) / 3);
     gap: 40px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
+.container-address {
+    display: flex;
+    display: inline;
+    justify-content: flex-end;
+}
 /* section  */
 .section-tittle {
     color: #ffffff;
