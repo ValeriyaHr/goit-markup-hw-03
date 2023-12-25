@@ -1,14 +1,3 @@
-html {
-    box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-    box-sizing: inherit;
-}
-
-
 body {
     font-family: "Roboto", sans-serif;
     font-style: normal;
@@ -36,9 +25,9 @@ ul {
 
 nav {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content:flex-start;
     padding: 0 15px;
+    align-items: center;
 }
 
 .container {
@@ -55,10 +44,10 @@ nav {
     background-color: #FFFFFF;
     letter-spacing: 0.02em;
     color: #2e2f42;
+
     display: flex;
     vertical-align: middle;
-    gap: 40px
-
+    gap: 40px;
 }
 
 
@@ -66,8 +55,8 @@ nav {
     background-color: #FFFFFF;
     letter-spacing: 0.02em;
     color: #2e2f42;
+
     display: flex;
-    flex-wrap: wrap;
 }
 
  .ul-header-menu {
@@ -75,30 +64,32 @@ nav {
     letter-spacing: 0.02em;
     color: #2e2f42;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     vertical-align: middle;
-    gap: 40px
+    gap: 40px;
 }
-.ul-header-menu li{
-    margin-right: 20px;
-}
+/*.ul-header-menu li{
+
+}*/
 
 .ul-section-approach {
-    display: flex;
     background-color: #FFFFFF;
     letter-spacing: 0.02em;
     color: #2e2f42;
+
+    display: flex;
 }
 
 .ul-section-portfolio {
     background-color: #FFFFFF;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    display: flex;
-    flex-wrap: wrap;
     padding: 120px 0 120px 0;
     column-gap: 24px;
     row-gap: 48px;
+
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .li-portfolio {
@@ -126,6 +117,7 @@ nav {
 
 .li-studio {
     color: #2e2f42;
+    
 }
 
 .li-studio-a {
@@ -141,10 +133,12 @@ a.li-header:hover, a.li-header:active, a.li-header:focus {
 } 
 
 .logo-block-header {
-display: flex;
 background-color: red; /*test*/
 vertical-align: middle;
-margin-right: 76px
+margin-right: 76px;
+margin-left: 141px;
+display: flex;
+
 }
 
 .logo {
@@ -155,7 +149,10 @@ margin-right: 76px
     text-transform: uppercase;
     font-size: 18px;
     color: #4d5ae5;
+
     display: flex;
+    justify-content: flex-start;
+
 }
 .address-main {
     color: #434455 ;
@@ -174,8 +171,8 @@ margin-right: 76px
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+
     display: flex;
-    /*width: 60%;  test zzz*/
 }
 
   
@@ -188,6 +185,7 @@ address{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#434455;
+
     display: flex;
 }
 
@@ -201,11 +199,11 @@ a.adress-info:hover, a.adress-info:active, a.adress-info:focus {
 }
 
 .container-header-menu {
-    display: flex;
     gap: 40px;
     align-items: center;
-    flex-wrap: wrap;
     justify-content: space-between;
+    display: flex;
+    height: 72px;
 }
 
 .container-address {
@@ -318,7 +316,9 @@ a.adress-info:hover, a.adress-info:active, a.adress-info:focus {
 
 .logo-studio-fooler {
     color: #f4f4fd;
+}
+
+.container-footer-menu {
     display: inline-block; 
     margin-bottom: 16px;
 }
-
