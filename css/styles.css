@@ -36,7 +36,7 @@ nav {
     padding-right: 15px; /* Правий внутрішній відступ */
     margin-left: auto; /* Автоматичний лівий зовнішній відступ (центрування) */
     margin-right: auto; /* Автоматичний правий зовнішній відступ (центрування) */
-    outline: 2px solid #fa0eb7;/*test*/
+    /* outline: 2px solid #fa0eb7;  test*/
 }  
 
 .ul-section-address {
@@ -150,12 +150,12 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
 .autor{
 
     padding: 32px 0;
- display: flex;
-width: 232px;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-gap: 8px;  
+    display: flex;
+    width: 232px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;  
  
 
 }
