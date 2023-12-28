@@ -234,6 +234,11 @@ display: flex;
 
 }
 .address-main {
+
+    /* display: flex;
+    justify-content: flex-end;
+    align-items: center; */
+
     color: #434455 ;
     background-color: green;
     display: flex;
