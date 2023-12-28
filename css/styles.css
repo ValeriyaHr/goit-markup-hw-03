@@ -151,10 +151,10 @@ nav {
 
 
 .li-portfolio {
-    /* margin-right: 24px; */
+  
     column-gap: 24px; 
+ 
     margin-bottom: 0px;
-    row-gap: 48px; 
 }
 .li-portfolio:first{
     margin-bottom: 48px;
