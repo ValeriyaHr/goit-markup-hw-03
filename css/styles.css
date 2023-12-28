@@ -31,9 +31,9 @@ nav {
 }
 
 .container {
-    max-width: 1158px; /* Максимальна ширина контейнера */
-    padding-left: 15px; /* Лівий внутрішній відступ */
-    padding-right: 15px; /* Правий внутрішній відступ */
+    width: 1158px; 
+    padding-left: 15px;
+    padding-right: 15px;
     outline: 2px solid #fa0eb7;  
 }  
 
@@ -75,7 +75,6 @@ nav {
     background-color: #FFFFFF;
     letter-spacing: 0.02em;
     color: #2e2f42;
-
     display: flex;
 }
 
@@ -88,9 +87,6 @@ nav {
     align-items: center;
     gap: 40px;
 }
-/*.ul-header-menu li{
-
-}*/
 
 .ul-section-approach {
     background-color: #FFFFFF;
@@ -184,6 +180,7 @@ nav {
 .li-studio {
     color: #2e2f42;
     display: flex;
+    align-items: center;
     
 }
 
@@ -219,6 +216,7 @@ display: flex;
     display: flex;
     justify-content: flex-start;
     display: inline-block;
+    vertical-align: middle;
     margin-bottom: 16px;
 
 }
@@ -230,6 +228,7 @@ display: flex;
 
 .logo-studio{
     color: #2e2f42;
+    /* margin-right: 76px; */
 }
 
 .logo-studio-a{
