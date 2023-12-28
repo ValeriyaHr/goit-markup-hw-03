@@ -286,7 +286,7 @@ a.adress-info:hover, a.adress-info:active, a.adress-info:focus {
     background-color: #2E2F42;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    padding: 188px 0;
+    /* padding: 188px 0; */
     display: flex;
     justify-content: center; /* Вирівнювання по горизонталі */
     align-items: center; /* Вирівнювання по вертикалі */
@@ -295,8 +295,8 @@ a.adress-info:hover, a.adress-info:active, a.adress-info:focus {
     flex-shrink: 0;
 }
 
-.container-effective{
-    
+.container-effective {
+    width: 496px;
 }
 
 .main-button {
@@ -308,12 +308,18 @@ a.adress-info:hover, a.adress-info:active, a.adress-info:focus {
     color: #ffffff;
     cursor: pointer;
     background-color: #4d5ae5;
-    display: block;
-    min-width: 169px;
-    height: 56px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    /* display: block; */
+    /* min-width: 169px; */
+    /* height: 56px; */
     border: none;
     border-radius: 4px;
-    /* margin-top: 48px; */
+    margin-top: 48px;  
+
+    display: inline-flex;
+padding: 16px 32px;
+align-items: flex-start;
+gap: 10px;
 }
 
 .main-button:hover, .main-button:active, .main-button:focus {
@@ -402,8 +408,9 @@ a.adress-info:hover, a.adress-info:active, a.adress-info:focus {
     font-weight: 700;
     font-size: 56px;
     letter-spacing: 0.02em;
-    max-width: 496px;
+    /* max-width: 496px; */
     text-align: center;
+    
 }
 
 .h-main-free {
