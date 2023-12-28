@@ -41,6 +41,7 @@ nav {
 
 .container-organaizer {
     display: flex;
+    justify-content: space-between;
 }
 
 .container-team{    
@@ -59,9 +60,11 @@ nav {
     background-color: #FFFFFF;
     letter-spacing: 0.02em;
     color: #2e2f42;
+   
 
     display: flex;
-    vertical-align: middle;
+    justify-content: flex-end;
+    align-items: center;
     gap: 40px;
 }
 
@@ -79,8 +82,8 @@ nav {
     letter-spacing: 0.02em;
     color: #2e2f42;
     display: flex;
-    justify-content: flex-start;
-    vertical-align: middle;
+    justify-content:space-between;
+    align-items: center;
     gap: 40px;
 }
 /*.ul-header-menu li{
@@ -178,6 +181,7 @@ nav {
 
 .li-studio {
     color: #2e2f42;
+    display: flex;
     
 }
 
@@ -217,6 +221,7 @@ display: flex;
 .address-main {
     color: #434455 ;
     background-color: green;
+    display: flex;
 }
 
 .logo-studio{
@@ -232,7 +237,6 @@ display: flex;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-
     display: flex;
 }
 
@@ -245,7 +249,6 @@ address{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#434455;
-
     display: flex;
 }
 
@@ -268,10 +271,11 @@ a.adress-info:hover, a.adress-info:active, a.adress-info:focus {
 
 .container-address {
     display: flex;
-    display: inline;
     justify-content: flex-end;
+    align-items: center; 
+    gap: 40px;
 }
-/* section  */
+
 .section-tittle {
     color: #ffffff;
     background-color: #2E2F42;
