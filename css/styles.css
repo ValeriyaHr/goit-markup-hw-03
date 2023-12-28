@@ -448,4 +448,6 @@ a.adress-info:hover, a.adress-info:active, a.adress-info:focus {
 
 .logo-studio-fooler {
     color: #f4f4fd;
+    display: inline-block;
+    margin-bottom: 16px;
 }
