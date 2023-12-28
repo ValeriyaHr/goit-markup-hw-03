@@ -223,13 +223,15 @@ a.li-header:hover, a.li-header:active, a.li-header:focus {
 } 
 
 .logo-block-header {
-vertical-align: middle;
+/* vertical-align: middle;
  margin-top: 16px;
- margin-right: 76px;
-display: flex;
+
+display: flex; */
 }
 
 .logo {
+    margin-top: 16px;
+    margin-right: 76px;
     font-family: 'Raleway', sans-serif;
     line-height: 1.17;
     letter-spacing: 0.03em;
