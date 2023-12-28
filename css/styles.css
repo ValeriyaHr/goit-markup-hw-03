@@ -297,7 +297,7 @@ a.adress-info:hover, a.adress-info:active, a.adress-info:focus {
     display: flex;
     justify-content: space-between;
     align-items: center;
-     width: 1158px; 
+     /* width: 1158px;  */
 }
 
 .container-address {
