@@ -39,6 +39,10 @@ nav {
     /* outline: 2px solid #fa0eb7;  test*/
 }  
 
+.container-organaizer {
+    display: flex;
+}
+
 .ul-section-address {
     background-color: #FFFFFF;
     letter-spacing: 0.02em;
