@@ -149,11 +149,11 @@ nav {
 }
 
 .li-portfolio {
-
-    column-gap: 24px; 
+ 
     margin-bottom: 48px;
     
 }
+
 .li-portfolio:nth-child(-n + 3) {
     margin-bottom: 0px; 
 }
