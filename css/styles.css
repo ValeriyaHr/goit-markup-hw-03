@@ -44,7 +44,7 @@ nav {
     justify-content: space-between;
     display: flex;
     height: 72px;
-    margin: 0 auto;
+  
    
 }
 
@@ -270,6 +270,7 @@ margin: 0 auto;
     letter-spacing: 0.02em;
     display: flex;
     align-items: center;
+    margin: 0 auto;
 }
 
 address{
