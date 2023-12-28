@@ -30,21 +30,23 @@ nav {
     align-items: center;
 }
 
-.container-organaizer {
-    display: flex;
-    justify-content: space-between;
-    width: 1158px;
-
-}
-
 .container {
     max-width: 1158px; /* Максимальна ширина контейнера */
     padding-left: 15px; /* Лівий внутрішній відступ */
     padding-right: 15px; /* Правий внутрішній відступ */
-    margin-left: auto; /* Автоматичний лівий зовнішній відступ (центрування) */
-    margin-right: auto; /* Автоматичний правий зовнішній відступ (центрування) */
     outline: 2px solid #fa0eb7;  
 }  
+
+.container-header-menu {
+    gap: 40px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    height: 72px;
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .container-team{    
     display: flex;
@@ -266,15 +268,6 @@ a.adress-info:hover, a.adress-info:active, a.adress-info:focus {
     justify-content: space-between;
     align-items: center;
     width: 1158px;
-}
-
-.container-header-menu {
-    gap: 40px;
-    align-items: center;
-    justify-content: space-between;
-    display: flex;
-    height: 72px;
-    width: 100%;
 }
 
 .container-address {
