@@ -293,6 +293,11 @@ a.adress-info:hover, a.adress-info:active, a.adress-info:focus {
     flex-shrink: 0;
 }
 
+.container-effective{
+    display: flex;
+
+}
+
 .main-button {
     font-family: "Roboto", sans-serif;
     font-weight: 500;    
