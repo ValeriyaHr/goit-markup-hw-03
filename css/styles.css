@@ -72,7 +72,7 @@ nav {
 
 .li-section-address {
     display: flex;
-    gap: 40px;
+    margin-right: 40px;
  }
 
 .ul-section{
