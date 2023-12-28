@@ -164,7 +164,7 @@ nav {
  
 .flex-ul-section {
     display: flex;
-    background-color: #FFFFFF;
+    /* background-color: #FFFFFF; */
     letter-spacing: 0.02em;
     color: #2e2f42;
    
