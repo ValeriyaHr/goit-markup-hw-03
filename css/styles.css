@@ -69,6 +69,10 @@ nav {
     gap: 40px;
 }
 
+.li-section-address {
+    display: flex;
+    gap: 40px;
+ }
 
 .ul-section{
     background-color: #FFFFFF;
