@@ -221,6 +221,8 @@ display: flex;
 
     display: flex;
     justify-content: flex-start;
+    display: inline-block;
+    margin-bottom: 16px;
 
 }
 .address-main {
