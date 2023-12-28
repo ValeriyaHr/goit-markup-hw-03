@@ -135,9 +135,10 @@ nav {
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 120px;
-    row-gap: 48px;
+    row-gap: 24px;
     display: flex;
     flex-wrap: wrap;
+    
 }
 
 .li-portfolio {
@@ -359,6 +360,8 @@ a.adress-info:hover, a.adress-info:active, a.adress-info:focus {
     color: #8E8F99;
     padding-top: 120px; 
     padding-bottom: 120px; 
+    /* padding-left: 0;
+    padding-right: 0; */
 }
 
 .flex-container-portfolio {
