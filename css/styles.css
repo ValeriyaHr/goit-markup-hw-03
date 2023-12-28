@@ -33,7 +33,7 @@ nav {
 .container-organaizer {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 1158px;
 
 }
 
@@ -45,11 +45,6 @@ nav {
     margin-right: auto; /* Автоматичний правий зовнішній відступ (центрування) */
     outline: 2px solid #fa0eb7;  
 }  
-
-.container-organaizer {
-    display: flex;
-    justify-content: space-between;
-}
 
 .container-team{    
     display: flex;
