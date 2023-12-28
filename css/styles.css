@@ -50,6 +50,7 @@ nav {
 
 .container-team{    
     /* display: flex; */
+    padding: 120px 0 ;
 }
 
 .section-team {
@@ -151,13 +152,15 @@ nav {
     /* margin-right: 24px; */
     column-gap: 24px; 
     margin-bottom: 48px;
+    row-gap: 48px; 
 }
 
 .flex-ul-section {
+    display: flex;
     background-color: #FFFFFF;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    display: flex;
+   
 }
 
 .flex-list-team {
@@ -173,6 +176,11 @@ nav {
     justify-content: center;
     vertical-align: middle;
     margin-right: 24px;
+    gap: 24px;
+}
+.flex-list-team:first-child {
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px; 
 }
 
 .autor{
@@ -422,12 +430,26 @@ a.adress-info:hover, a.adress-info:active, a.adress-info:focus {
 }
 
 .h-main-free {
+    margin-bottom: 8px;
+    text-align: center;
+    
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+ 
+    
 }
-
+.h-main-three{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 72px;
+}
 .h-main-two {
     font-weight: 400;
     font-size: 36px;
@@ -438,7 +460,7 @@ a.adress-info:hover, a.adress-info:active, a.adress-info:focus {
     color: #2e2f42;
     margin-bottom: 72px;
     padding-top: 120px;
-    margin-bottom: 8px;
+    margin-bottom: 72px; 
 }
 
 .p-text {
