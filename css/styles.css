@@ -223,10 +223,8 @@ a.li-header:hover, a.li-header:active, a.li-header:focus {
 } 
 
 .logo-block-header {
-/* vertical-align: middle;
- margin-top: 16px;
-
-display: flex; */
+ 
+margin: 0 auto;
 }
 
 .logo {
@@ -315,7 +313,7 @@ a.adress-info:hover, a.adress-info:active, a.adress-info:focus {
     background-color: #2E2F42;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    /* padding: 188px 0; */
+    padding: 120px 0 120px;
     display: flex;
     justify-content: center; /* Вирівнювання по горизонталі */
     align-items: center; /* Вирівнювання по вертикалі */
