@@ -50,7 +50,7 @@ nav {
 
 .container-team{    
     /* display: flex; */
-    padding: 120px 0 ;
+    padding: 120px 0 120px;
 }
 
 .section-team {
@@ -148,13 +148,16 @@ nav {
     
 }
 
+
 .li-portfolio {
     /* margin-right: 24px; */
     column-gap: 24px; 
-    margin-bottom: 48px;
+    margin-bottom: 0px;
     row-gap: 48px; 
 }
-
+.li-portfolio:first{
+    margin-bottom: 48px;
+}
 .flex-ul-section {
     display: flex;
     background-color: #FFFFFF;
@@ -432,7 +435,7 @@ a.adress-info:hover, a.adress-info:active, a.adress-info:focus {
 .h-main-free {
     margin-bottom: 8px;
     text-align: center;
-    
+
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -464,6 +467,7 @@ a.adress-info:hover, a.adress-info:active, a.adress-info:focus {
 }
 
 .p-text {
+    text-align: center;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
