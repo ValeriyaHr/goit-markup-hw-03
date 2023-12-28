@@ -357,6 +357,8 @@ a.adress-info:hover, a.adress-info:active, a.adress-info:focus {
 .section-portfolio {
     font-weight: 500;
     color: #8E8F99;
+    padding-top: 120px; 
+    padding-bottom: 120px; 
 }
 
 .flex-container-portfolio {
@@ -405,7 +407,7 @@ a.adress-info:hover, a.adress-info:active, a.adress-info:focus {
     font-weight: 700;
     font-size: 56px;
     letter-spacing: 0.02em;
-    /* max-width: 496px; */
+      max-width: 496px; /*????*/
     text-align: center;
     
 }
