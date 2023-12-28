@@ -74,6 +74,9 @@ nav {
     display: flex;
     margin-right: 40px;
  }
+ .li-section-address:last-child {
+    margin-right: 0;
+ }
 
 .ul-section{
     background-color: #FFFFFF;
@@ -282,7 +285,7 @@ a.adress-info:hover, a.adress-info:active, a.adress-info:focus {
     display: flex;
     justify-content: flex-end;
     align-items: center; 
-    gap: 40px;
+    /* gap: 40px; */
 }
 .section-one {
     background-color: #2E2F42;
