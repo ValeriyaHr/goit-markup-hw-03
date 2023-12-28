@@ -295,6 +295,7 @@ a.adress-info:hover, a.adress-info:active, a.adress-info:focus {
 
 .container-effective{
     display: flex;
+    width: 100%;
 
 }
 
