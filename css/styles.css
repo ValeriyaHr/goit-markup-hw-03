@@ -45,6 +45,7 @@ nav {
     height: 72px;
     margin-left: auto;
     margin-right: auto;
+    width: 1158px;
 }
 
 .container-team{    
@@ -208,7 +209,7 @@ a.li-header:hover, a.li-header:active, a.li-header:focus {
 
 .logo-block-header {
 vertical-align: middle;
- 
+ margin-top: 16px;
 
 display: flex;
 }
