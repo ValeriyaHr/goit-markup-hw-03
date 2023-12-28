@@ -36,11 +36,23 @@ nav {
     padding-right: 15px; /* Правий внутрішній відступ */
     margin-left: auto; /* Автоматичний лівий зовнішній відступ (центрування) */
     margin-right: auto; /* Автоматичний правий зовнішній відступ (центрування) */
-    /* outline: 2px solid #fa0eb7;  test*/
+    outline: 2px solid #fa0eb7;  
 }  
 
 .container-organaizer {
     display: flex;
+}
+
+.container-team{    
+    display: flex;
+}
+
+.section-team {
+    background-color: #F4F4FD;
+    font-weight: 500;
+    color: #8E8F99;
+    min-height:732px;
+    flex-shrink: 0;
 }
 
 .ul-section-address {
@@ -79,11 +91,11 @@ nav {
     background-color: #FFFFFF;
     letter-spacing: 0.02em;
     color: #2e2f42;
-
-    display: flex;}
+    display: flex;
+}
 
 .apporoach-content{
-     margin-right: 24px;  
+    margin-right: 24px;  
     display: flex;
    
     flex-direction: column;
@@ -138,11 +150,8 @@ nav {
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
      
-   
-
-    border-radius: 0px 0px 4px 4px;
-background: var(--WHITE, #FFF);
-box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    background: var(--WHITE, #FFF);
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 
     display: flex;
     flex-direction: column;
@@ -151,8 +160,8 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
     vertical-align: middle;
     margin-right: 24px;
 }
-.autor{
 
+.autor{
     padding: 32px 0;
     display: flex;
     width: 232px;
@@ -176,6 +185,7 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
     color: #2e2f42;
     padding: 24px 0;
 }
+
 a.li-studio-a:hover, a.li-studio-a:active, a.li-studio-a:focus {
     color: #404bbf;
 } 
@@ -189,7 +199,6 @@ vertical-align: middle;
 margin-right: 76px;
 /* margin-left: 141px; */
 display: flex;
-
 }
 
 .logo {
@@ -213,6 +222,7 @@ display: flex;
 .logo-studio{
     color: #2e2f42;
 }
+
 .logo-studio-a{
     color: #2E2F42;
 }
@@ -226,7 +236,6 @@ display: flex;
     display: flex;
 }
 
-  
 address{
     font-style: normal;
 }
@@ -327,14 +336,6 @@ a.adress-info:hover, a.adress-info:active, a.adress-info:focus {
     overflow: hidden;
     clip: rect(0, 0, 0, 0);
     border: 0;
-}
-
-.section-team {
-    background-color: #F4F4FD;
-    font-weight: 500;
-    color: #8E8F99;
-    min-height:732px ;
-    flex-shrink: 0;
 }
 
 .section-portfolio {
